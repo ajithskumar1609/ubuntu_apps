@@ -1,0 +1,22 @@
+body {
+  background-color: wheat;
+}
+section {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: white;
+}
+header {
+  background-color: aquamarine;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+footer {
+  padding: 15px 5px;
+  font-size: 30px;
+  background-color: aquamarine;
+}
+h1 {
+  color: black;
+}

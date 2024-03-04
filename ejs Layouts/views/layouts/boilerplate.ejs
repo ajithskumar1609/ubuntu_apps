@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>It's <%= who %></title>
+    <%- block('head').toString() %>
+  </head>
+  <body>
+    <section>
+      <%-partial('./partials/header') %> <%- body -%>
+      <%-partial('./partials/footer') %>
+    </section>
+    <!-- <script src="/js/index.js"></script> -->
+    <%- block('footer').toString() %>
+  </body>
+</html>
